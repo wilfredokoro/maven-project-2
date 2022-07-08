@@ -41,12 +41,12 @@ pipeline {
       }
 
     }
-    /*stage('Approval for stage') {
+    stage('Approval for Prod') {
       steps {
         input('Do you want to proceed?')
       }
     }
-    stage('Deploy to Stage') {
+    /*stage('Deploy to Stage') {
       environment {
         HOSTS = "dev"
       }
